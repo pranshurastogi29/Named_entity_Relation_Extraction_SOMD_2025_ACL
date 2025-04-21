@@ -133,18 +133,6 @@ The submission pipeline integrates:
 - GPU is recommended for optimal performance
 - Models will be downloaded automatically on first run
 
-## Contributing
-
-[Add contribution guidelines if applicable]
-
 ## License
 
-[Specify license]
-
-## Contact
-
-[Add contact information]
-
-## Acknowledgments
-
-[Add acknowledgments if applicable] 
+MIT License 
