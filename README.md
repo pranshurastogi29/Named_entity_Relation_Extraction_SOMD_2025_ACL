@@ -1,6 +1,6 @@
 # SOMD2025 - Named Entity Recognition and Relation Extraction
 
-This repository contains the implementation of Named Entity Recognition (NER) and Relation Extraction (RE) models using state-of-the-art transformer architectures. The project focuses on extracting structured information from text using various deep learning approaches.
+This repository contains the implementation of Named Entity Recognition (NER) and Relation Extraction (RE) models using Encoders transformer architectures. The project focuses on extracting structured information from text using various deep learning approaches.
 
 ## Project Overview
 
