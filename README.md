@@ -105,7 +105,7 @@ The `pipeline_submission_nbs/submission_recreate.ipynb` notebook provides a comp
 
 1. Loads and preprocesses the input data
 2. Runs the NER model (DeBERTa v3) to identify entities
-3. Applies the RE models (BERT Large and DeBERTa) to extract relationships
+3. Applies the RE models (MODERN BERT Large and DeBERTa) to extract relationships
 4. Combines and post-processes the results
 
 To recreate the submission:
