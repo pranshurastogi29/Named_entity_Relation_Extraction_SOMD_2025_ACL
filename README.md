@@ -6,7 +6,7 @@ This repository contains the implementation of Named Entity Recognition (NER) an
 
 The project consists of several key components:
 - Named Entity Recognition (NER) using DeBERTa v3
-- Relation Extraction (RE) using BERT Large and DeBERTa
+- Relation Extraction (RE) using ModernBERT Large and DeBERTa
 - Synthetic dataset generation using Large Language Models (LLMs)
 
 ## Directory Structure
@@ -40,7 +40,7 @@ The project consists of several key components:
 
 ### Relation Extraction (RE)
 - Models:
-  - BERT Large
+  - ModernBERT Large
   - DeBERTa v3
 - Purpose: Extract relationships between identified entities
 
@@ -88,14 +88,14 @@ pip install -r requirements.txt
 - Implements custom token classification head
 
 ### RE Training
-- Implements both BERT Large and DeBERTa models
+- Implements both ModernBERT Large and DeBERTa models
 - Uses specialized relation extraction architecture
 - Includes performance optimization techniques
 
 ## Results
 
 Results are stored in:
-- `modern_bert_large_re_results/`: BERT model performance
+- `modern_bert_large_re_results/`: ModernBERT model performance
 - `deberta_v3_re_results/`: DeBERTa model performance
 
 ## Pipeline and Submission Recreation
@@ -105,7 +105,7 @@ The `pipeline_submission_nbs/submission_recreate.ipynb` notebook provides a comp
 
 1. Loads and preprocesses the input data
 2. Runs the NER model (DeBERTa v3) to identify entities
-3. Applies the RE models (MODERN BERT Large and DeBERTa) to extract relationships
+3. Applies the RE models (ModernBERT Large and DeBERTa) to extract relationships
 4. Combines and post-processes the results
 
 To recreate the submission:
@@ -125,7 +125,7 @@ pip install -r requirements.txt
 ### Pipeline Components
 The submission pipeline integrates:
 - NER model predictions from 4-fold DeBERTa v3 models
-- RE predictions from BERT Large and DeBERTa models
+- RE predictions from ModernBERT Large and DeBERTa models
 - Post-processing and optimization steps
 
 ### Important Notes
