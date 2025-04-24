@@ -47,7 +47,7 @@ The project consists of several key components:
 ## Data Generation
 
 The project includes synthetic data generation using various LLMs:
-- Mistral 7B
+- Mistral 7B (works best)
 - Qwen 2.5 7B
 - Gemma 2 9B
 Check out this dataset we upload on HF - [psresearch/augmented_dataset_llm_generated_NER](https://huggingface.co/datasets/psresearch/augmented_dataset_llm_generated_NER)
