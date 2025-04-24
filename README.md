@@ -34,14 +34,14 @@ The project consists of several key components:
 ## Models
 
 ### Named Entity Recognition (NER)
-- Model: DeBERTa v3 Large
+- Model: DeBERTa v3 Large - psresearch/deberta-v3-large-NER-Scholarly-text\href{https://huggingface.co/psresearch/deberta-v3-large-NER-Scholarly-text}
 - Implementation: K-fold cross-validation (4 folds)
 - Purpose: Identify and classify named entities in text
 
 ### Relation Extraction (RE)
 - Models:
   - ModernBERT Large
-  - DeBERTa v3
+  - DeBERTa v3 - 
 - Purpose: Extract relationships between identified entities
 
 ## Data Generation
